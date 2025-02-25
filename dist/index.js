@@ -1,6 +1,6 @@
 /******/ var __webpack_modules__ = ({
 
-/***/ 477:
+/***/ 834:
 /***/ ((module) => {
 
 module.exports = eval("require")("./main");
@@ -47,7 +47,9 @@ module.exports = eval("require")("./main");
 /******/ 
 /************************************************************************/
 var __webpack_exports__ = {};
-/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(477);
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_0__ = __nccwpck_require__(834);
 /**
  * The entrypoint for the action.
  */
@@ -55,4 +57,6 @@ var __webpack_exports__ = {};
 
 /* istanbul ignore next */
 (0,_main__WEBPACK_IMPORTED_MODULE_0__.run)()
+
+})();
 
