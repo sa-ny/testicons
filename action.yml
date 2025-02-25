@@ -1,6 +1,6 @@
-name: Hello, World!
-description: Greet someone and record the time
-author: GitHub Actions
+name: Icon test san
+description: Temporary Hello world action for testing
+author: sa-ny
 
 # Define your inputs here.
 inputs:
